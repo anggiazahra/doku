@@ -1,0 +1,79 @@
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 3px;
+    background-color: #ab0118;
+    border-style: none;
+    color: #fcedeb;
+    margin: 10px 0;
+}
+
+.hero {
+    background-image: url("../img/hero-image.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0 120px;
+    padding-top: 100px;
+}
+
+.hero-text {
+    text-align: left;
+    color: #4a2723;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin: 20px 0 0 0;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    margin-top: 50px;
+}
+
+.grid-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.menu-icon {
+    margin: 0 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.menu-icon img {
+    width: 80px;
+}
+
+.icon-list {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    padding: 30px 0;
+}
+
+.icon-list:hover {
+    bottom: 80px;
+}
